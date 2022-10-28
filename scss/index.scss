@@ -1,0 +1,51 @@
+header {
+  background-color: #ff8800;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} 
+
+
+.conteiner {
+  max-width: 1400px;
+  margin: auto;
+}
+
+
+
+/* fb5607 */
+
+.logo {
+  margin: 0px;
+  padding: 25px 30px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  font-size: 1.45em;
+}
+
+.logo h1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+
+nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+header a {
+  padding: 5px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  font-size: 1.3em;
+}
+
+header a:hover {
+  color: rgb(65, 0, 245);
+}

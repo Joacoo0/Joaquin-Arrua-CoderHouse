@@ -3,17 +3,13 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  .conteiner {
+    max-width: 1400px;
+    margin: auto;
+  }
 } 
 
-
-.conteiner {
-  max-width: 1400px;
-  margin: auto;
-}
-
-
-
-/* fb5607 */
 
 .logo {
   margin: 0px;

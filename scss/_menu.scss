@@ -1,0 +1,252 @@
+body {
+  background-color: rgb(245, 245, 245);
+}
+
+.line-separator {
+  width: 100%;
+  margin: 80px 0px 0px 0px;
+  border-top: solid 0.5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-weight: bold;
+}
+
+hr {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  border-style: solid;
+  color: rgb(16, 26, 26);
+  margin-top: 20px;
+}
+
+ul {
+  font-size: 1.2em;
+  font-family: serif;
+  font-weight: bold;
+}
+
+.conteiner-entrada {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: rgb(245, 245, 245);
+  height: 70vh;
+  width: 100%;
+  .title-entrada {
+    padding-top: 25px;
+    color: black;
+    font-size: 1.8em;
+    width: 100%;
+  }
+  .menu-entradas {
+    padding: 10px;
+    font-size: 12px;
+    width: 100%;
+  }
+}
+
+.conteiner-pizza {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: rgb(245, 245, 245);
+  height: 60vh;
+  .title-pizza {
+    color: black;
+    font-size: 2em;
+  }
+  .menu-pizza {
+    padding: 10px;
+    font-size: 18px;
+  }
+}
+
+.conteiner-plato {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: rgb(245, 245, 245);
+  height: 70vh;
+  .title-plato {
+    color: black;
+    font-size: 1.8em;
+  }
+  .menu-plato {
+    padding: 10px;
+    font-size: 12px;
+  }
+}
+
+.conteiner-hamburguesa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: rgb(245, 245, 245);
+  height: 100vh;
+  .title-hamburguesa {
+    color: black;
+    font-size: 2em;
+  }
+  .menu-hamburguesa {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+.conteiner-pancho {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: rgb(245, 245, 245);
+  height: 70vh;
+  .title-pancho {
+    color: black;
+    font-size: 2em;
+  }
+  .menu-pancho {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    background-color: rgb(245, 245, 245);
+  }
+
+  .line-separator {
+    width: 100%;
+    margin: 80px 0px 0px 0px;
+    border-top: solid 0.5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  p {
+    font-weight: bold;
+  }
+
+  hr {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    border-style: solid;
+    color: rgb(16, 26, 26);
+    margin-top: 20px;
+  }
+
+  ul {
+    font-size: 1.2em;
+    font-family: serif;
+    font-weight: bold;
+  }
+
+  .conteiner-entrada {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(245, 245, 245);
+    height: 70vh;
+    .title-entrada {
+      padding-top: 25px;
+      color: black;
+      font-size: 1.8em;
+    }
+    .menu-entradas {
+      padding: 10px;
+      font-size: 12px;
+    }
+  }
+
+  .conteiner-pizza {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(245, 245, 245);
+    height: 60vh;
+    .title-pizza {
+      color: black;
+      font-size: 2em;
+    }
+    .menu-pizza {
+      padding: 10px;
+      font-size: 20px;
+    }
+  }
+
+  .conteiner-plato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(245, 245, 245);
+    height: 70vh;
+    .title-plato {
+      color: black;
+      font-size: 1.8em;
+    }
+    .menu-plato {
+      padding: 10px;
+      font-size: 12px;
+    }
+  }
+
+  .conteiner-hamburguesa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(245, 245, 245);
+    height: 100vh;
+    .title-hamburguesa {
+      color: black;
+      font-size: 1.8em;
+    }
+    .menu-hamburguesa {
+      padding: 10px;
+      font-size: 12px;
+    }
+  }
+  .conteiner-pancho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(245, 245, 245);
+    height: 70vh;
+    .title-pancho {
+      color: black;
+      font-size: 1.8em;
+    }
+    .menu-pancho {
+      padding: 10px;
+      font-size: 12px;
+
+      p {
+        font-weight: bold;
+      }
+    }
+  }
+}

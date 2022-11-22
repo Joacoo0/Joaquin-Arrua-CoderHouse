@@ -1,0 +1,171 @@
+/* horarios */
+.contenedor-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 80vh;
+  color: rgb(0, 0, 0);
+  background-color: rgb(230, 230, 230);
+
+  .title-hora {
+    font-size: 1.9em;
+    padding-bottom: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  .horarios li {
+    font-size: 1.2em;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+}
+
+/* fin-horarios */
+
+/* pedidos ya */
+.contenedor- {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 60vh;
+  background-color: rgb(220, 220, 220);
+  .title-pedi {
+    h2 {
+      font-size: 3.1em;
+      font-weight: bold;
+    }
+  }
+
+  p {
+    font-size: 1.3em;
+    padding-top: 15px;
+    font-weight: bold;
+
+    a {
+      text-decoration: none;
+      color: #010201;
+      width: 25%;
+      font-weight: bold;
+      transition: 0.5s;
+      &:hover {
+        background-color: rgb(156, 156, 156);
+
+        color: #0077b6;
+      }
+    }
+  }
+}
+
+/* fin pedidos ya */
+
+/* direccion */
+.contenedor-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 80vh;
+  color: rgb(0, 0, 0);
+  background-color: rgb(230, 230, 230);
+
+  .title-dire {
+    font-size: 1.9em;
+    padding-bottom: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  .direccion li {
+    font-size: 1.3em;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+}
+
+/* fin-direecion */
+
+@media (min-width: 768px) {
+  /* horarios */
+  .contenedor-1 {
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 80vh;
+    color: rgb(5, 2, 2);
+
+    .title-hora {
+      font-size: 2.1em;
+      padding-bottom: 15px;
+      font-family: "Roboto Condensed", sans-serif;
+    }
+    .horarios li {
+      font-size: 1.4em;
+      font-family: "Roboto Condensed", sans-serif;
+    }
+  }
+
+  /* fin-horarios */
+
+  /* pedidos ya */
+  .contenedor- {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 60vh;
+    background-color: rgb(220, 220, 220);
+
+    .title-pedi {
+      h2 {
+        font-size: 4em;
+      }
+    }
+
+    p {
+      font-size: 2em;
+      padding-top: 15px;
+      font-family: Light 300 Italic;
+
+      a {
+        text-decoration: none;
+        color: #010201;
+        transition: 0.5s;
+        font-weight: bold;
+        &:hover {
+          background-color: rgb(180, 180, 180);
+          color: #0077b6;
+        }
+      }
+    }
+  }
+
+  /* fin pedidos ya */
+
+  /* direccion */
+  .contenedor-2 {
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 80vh;
+    color: black;
+
+    .title-dire {
+      font-size: 1.7em;
+      padding-bottom: 20px;
+      font-family: "Roboto Condensed", sans-serif;
+    }
+    .direccion li {
+      font-size: 1.5em;
+      font-family: "Roboto Condensed", sans-serif;
+    }
+  }
+
+  /* fin-direecion */
+}

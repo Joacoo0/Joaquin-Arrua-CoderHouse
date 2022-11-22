@@ -1,0 +1,937 @@
+header {
+  background-color: #0077b6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header .conteiner {
+  height: 100%;
+}
+header .conteiner .logo {
+  margin: 0px;
+  padding: 25px 30px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  font-size: 2.1em;
+  display: flex;
+  align-items: center;
+}
+header .conteiner .logo h1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+header .conteiner .header nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 25px;
+  width: 100%;
+}
+header .conteiner .header nav a {
+  padding: 5px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  font-size: 1.6em;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+header .conteiner .header nav a:hover {
+  background-color: rgba(255, 255, 255, 0.7058823529);
+  border-radius: 20px;
+}
+
+@media (min-width: 768px) {
+  header .conteiner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  header .conteiner .logo {
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    width: 30%;
+    justify-content: flex-start;
+    font-weight: bold;
+  }
+  header .conteiner .header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 70%;
+  }
+  header .conteiner .header nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    align-items: center;
+    flex-direction: row;
+    padding-bottom: 0px;
+    width: 100%;
+  }
+  header .conteiner .header nav a {
+    display: flex;
+    justify-self: center;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    transition: 0.3s;
+    margin-left: 10px;
+    font-family: sans-serif;
+    align-content: stretch;
+    height: 100%;
+    font-size: 20px;
+  }
+  header .conteiner .header nav a:hover {
+    transform: scale(1.1);
+    background-color: rgba(255, 255, 255, 0.7058823529);
+    border-radius: 20px;
+  }
+}
+/* Fin-nav */
+/* footer */
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0077b6;
+  margin: 0px;
+}
+footer .titulo-footer {
+  color: beige;
+  display: flex;
+  font-size: 2.3em;
+  justify-content: center;
+  padding: 0px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+footer .copy {
+  padding: 0px;
+  color: rgba(158, 158, 158, 0.788);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 1.5em;
+  font-family: Light 300 Italic;
+  margin: 0px;
+}
+footer .redes-sociales {
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+footer .redes-sociales a {
+  padding: 0px;
+  transition: 0, 3s;
+}
+footer .redes-sociales a i {
+  padding: 0px;
+  font-size: 40px;
+  padding: 10px;
+  color: beige;
+}
+footer .redes-sociales a i:hover {
+  transform: scale(1.2);
+  color: rgb(250, 250, 250);
+  cursor: pointer;
+}
+
+/* fin-footer */
+@media (min-width: 768px) {
+  footer {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0077b6;
+  }
+  footer .titulo-footer {
+    color: beige;
+    display: flex;
+    font-size: 2em;
+    justify-content: center;
+    padding: 0px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    font-weight: bold;
+  }
+  footer .copy {
+    padding: 0px;
+    color: rgba(158, 158, 158, 0.788);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: Light 300 Italic;
+    margin: 0px;
+  }
+  footer .redes-sociales {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  footer .redes-sociales a {
+    padding: 0px;
+    transition: 0, 3s;
+  }
+  footer .redes-sociales a i {
+    padding: 0px;
+    font-size: 30px;
+    padding: 10px;
+    color: beige;
+  }
+  footer .redes-sociales a i:hover {
+    transform: scale(1.2);
+    color: rgb(250, 250, 250);
+    cursor: pointer;
+  }
+}
+/* horarios */
+.contenedor-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 80vh;
+  color: rgb(0, 0, 0);
+  background-color: rgb(230, 230, 230);
+}
+.contenedor-1 .title-hora {
+  font-size: 1.9em;
+  padding-bottom: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.contenedor-1 .horarios li {
+  font-size: 1.2em;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/* fin-horarios */
+/* pedidos ya */
+.contenedor- {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 60vh;
+  background-color: rgb(220, 220, 220);
+}
+.contenedor- .title-pedi h2 {
+  font-size: 3.1em;
+  font-weight: bold;
+}
+.contenedor- p {
+  font-size: 1.3em;
+  padding-top: 15px;
+  font-weight: bold;
+}
+.contenedor- p a {
+  text-decoration: none;
+  color: #010201;
+  width: 25%;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.contenedor- p a:hover {
+  background-color: rgb(156, 156, 156);
+  color: #0077b6;
+}
+
+/* fin pedidos ya */
+/* direccion */
+.contenedor-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 80vh;
+  color: rgb(0, 0, 0);
+  background-color: rgb(230, 230, 230);
+}
+.contenedor-2 .title-dire {
+  font-size: 1.9em;
+  padding-bottom: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.contenedor-2 .direccion li {
+  font-size: 1.3em;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/* fin-direecion */
+@media (min-width: 768px) {
+  /* horarios */
+  .contenedor-1 {
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 80vh;
+    color: rgb(5, 2, 2);
+  }
+  .contenedor-1 .title-hora {
+    font-size: 2.1em;
+    padding-bottom: 15px;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  .contenedor-1 .horarios li {
+    font-size: 1.4em;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  /* fin-horarios */
+  /* pedidos ya */
+  .contenedor- {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 60vh;
+    background-color: rgb(220, 220, 220);
+  }
+  .contenedor- .title-pedi h2 {
+    font-size: 4em;
+  }
+  .contenedor- p {
+    font-size: 2em;
+    padding-top: 15px;
+    font-family: Light 300 Italic;
+  }
+  .contenedor- p a {
+    text-decoration: none;
+    color: #010201;
+    transition: 0.5s;
+    font-weight: bold;
+  }
+  .contenedor- p a:hover {
+    background-color: rgb(180, 180, 180);
+    color: #0077b6;
+  }
+  /* fin pedidos ya */
+  /* direccion */
+  .contenedor-2 {
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 80vh;
+    color: black;
+  }
+  .contenedor-2 .title-dire {
+    font-size: 1.7em;
+    padding-bottom: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  .contenedor-2 .direccion li {
+    font-size: 1.5em;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  /* fin-direecion */
+}
+body {
+  background-color: rgb(245, 245, 245);
+  font-family: monospace;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+form {
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 7px;
+  height: 100%;
+}
+
+.title {
+  text-align: center;
+  margin: 0px;
+  font-size: 60px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.conte {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+input,
+textarea {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 80%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 7px;
+  font-size: 25px;
+}
+
+textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+  resize: none;
+}
+
+#boton {
+  background-color: #018dff;
+  color: black;
+  padding: 20px;
+  font-size: 1.8em;
+  width: 50%;
+  height: 70px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+#boton:hover {
+  cursor: pointer;
+  background-color: rgba(2, 114, 206, 0.6901960784);
+}
+
+@media (min-width: 768px) {
+  form {
+    width: 80%;
+  }
+  input,
+  textarea {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+  }
+  input:hover,
+  textarea:hover {
+    background-color: rgb(245, 245, 229);
+  }
+}
+.title1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  height: 150px;
+}
+
+.fondo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+}
+.fondo .grilla-contacto {
+  background-color: rgba(0, 0, 0, 0.062745098);
+  width: 90%;
+  height: 600px;
+  display: grid;
+  grid-template-areas: "mesas mesas barra" "fichas tragos pool" "comidas tragos platos";
+  grid-gap: 10px;
+  padding: 10px;
+}
+.fondo .grilla-contacto .mesas {
+  background-image: url(../img/mesas-abajo.jpg);
+  background-size: cover;
+  background-position: center;
+  grid-area: mesas;
+}
+.fondo .grilla-contacto .platos {
+  background-image: url(../img/barra-pool.jpg);
+  background-size: cover;
+  background-position: center;
+  grid-area: platos;
+}
+.fondo .grilla-contacto .tragos {
+  background-image: url(../img/centro.png);
+  background-size: cover;
+  background-position: center;
+  grid-area: tragos;
+}
+.fondo .grilla-contacto .barra {
+  background-image: url(../img/labajada.png);
+  background-size: cover;
+  background-position: center;
+  grid-area: barra;
+}
+.fondo .grilla-contacto .fichas {
+  background-image: url(../img/pool.jpg);
+  background-size: cover;
+  background-position: center;
+  grid-area: fichas;
+}
+.fondo .grilla-contacto .comidas {
+  background-image: url(../img/pool-abajo.jpeg);
+  background-size: cover;
+  background-position: center;
+  grid-area: comidas;
+}
+.fondo .grilla-contacto .pool {
+  background-image: url(../img/barra-vieja.png);
+  background-size: cover;
+  background-position: center;
+  grid-area: pool;
+}
+
+@media (min-width: 768px) {
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    height: 150px;
+  }
+  .fondo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+  }
+  .fondo .grilla-contacto {
+    background-color: rgba(0, 0, 0, 0.062745098);
+    width: 90%;
+    height: 600px;
+    display: grid;
+    grid-template-areas: "mesas mesas barra" "fichas tragos pool" "comidas tragos platos";
+    grid-gap: 10px;
+    padding: 10px;
+  }
+  .fondo .grilla-contacto .mesas {
+    background-image: url(../img/mesas-abajo.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-area: mesas;
+  }
+  .fondo .grilla-contacto .platos {
+    background-image: url(../img/barra-pool.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-area: platos;
+  }
+  .fondo .grilla-contacto .tragos {
+    background-image: url(../img/centro.png);
+    background-size: cover;
+    background-position: center;
+    grid-area: tragos;
+  }
+  .fondo .grilla-contacto .barra {
+    background-image: url(../img/labajada.png);
+    background-size: cover;
+    background-position: center;
+    grid-area: barra;
+  }
+  .fondo .grilla-contacto .fichas {
+    background-image: url(../img/pool.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-area: fichas;
+  }
+  .fondo .grilla-contacto .comidas {
+    background-image: url(../img/pool-abajo.jpeg);
+    background-size: cover;
+    background-position: center;
+    grid-area: comidas;
+  }
+  .fondo .grilla-contacto .pool {
+    background-image: url(../img/barra-vieja.png);
+    background-size: cover;
+    background-position: center;
+    grid-area: pool;
+  }
+}
+.conteiner .title {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  font-size: 1.4em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.conteiner .title h3 {
+  font-size: 1.1em;
+}
+
+.conteiner-tipos {
+  width: 100%;
+}
+.conteiner-tipos .cards {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.conteiner-tipos .cards .card {
+  height: 400px;
+  margin-bottom: 20px;
+}
+.conteiner-tipos .cards .card-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.conteiner-tipos .cards .card-text {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+.conteiner-tipos .cards .btn-primary {
+  font-weight: bold;
+  position: absolute;
+  left: 55px;
+  bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .conteiner .title {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-size: 1.8em;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .conteiner .title h3 {
+    font-size: 1.2em;
+  }
+  .conteiner-tipos {
+    display: flex;
+  }
+  .conteiner-tipos .title1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .conteiner-tipos .cards {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .conteiner-tipos .cards .card {
+    height: 400px;
+    width: 600px;
+    margin: 25px;
+  }
+  .conteiner-tipos .cards .card .card-title {
+    font-size: 1.8em;
+    font-weight: bold;
+  }
+  .conteiner-tipos .cards .card .card-title .card-text {
+    font-size: 1.4em;
+  }
+}
+body {
+  background-color: rgb(245, 245, 245);
+}
+
+.line-separator {
+  width: 100%;
+  margin: 80px 0px 0px 0px;
+  border-top: solid 0.5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-weight: bold;
+}
+
+hr {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  border-style: solid;
+  color: rgb(16, 26, 26);
+  margin-top: 20px;
+}
+
+ul {
+  font-size: 1.2em;
+  font-family: serif;
+  font-weight: bold;
+}
+
+.conteiner-entrada {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: rgb(245, 245, 245);
+  height: 70vh;
+  width: 100%;
+}
+.conteiner-entrada .title-entrada {
+  padding-top: 25px;
+  color: black;
+  font-size: 1.8em;
+  width: 100%;
+}
+.conteiner-entrada .menu-entradas {
+  padding: 10px;
+  font-size: 12px;
+  width: 100%;
+}
+
+.conteiner-pizza {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: rgb(245, 245, 245);
+  height: 60vh;
+}
+.conteiner-pizza .title-pizza {
+  color: black;
+  font-size: 2em;
+}
+.conteiner-pizza .menu-pizza {
+  padding: 10px;
+  font-size: 18px;
+}
+
+.conteiner-plato {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: rgb(245, 245, 245);
+  height: 70vh;
+}
+.conteiner-plato .title-plato {
+  color: black;
+  font-size: 1.8em;
+}
+.conteiner-plato .menu-plato {
+  padding: 10px;
+  font-size: 12px;
+}
+
+.conteiner-hamburguesa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: rgb(245, 245, 245);
+  height: 100vh;
+}
+.conteiner-hamburguesa .title-hamburguesa {
+  color: black;
+  font-size: 2em;
+}
+.conteiner-hamburguesa .menu-hamburguesa {
+  padding: 10px;
+  font-size: 14px;
+}
+
+.conteiner-pancho {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: rgb(245, 245, 245);
+  height: 70vh;
+}
+.conteiner-pancho .title-pancho {
+  color: black;
+  font-size: 2em;
+}
+.conteiner-pancho .menu-pancho {
+  padding: 10px;
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-color: rgb(245, 245, 245);
+  }
+  .line-separator {
+    width: 100%;
+    margin: 80px 0px 0px 0px;
+    border-top: solid 0.5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  p {
+    font-weight: bold;
+  }
+  hr {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    border-style: solid;
+    color: rgb(16, 26, 26);
+    margin-top: 20px;
+  }
+  ul {
+    font-size: 1.2em;
+    font-family: serif;
+    font-weight: bold;
+  }
+  .conteiner-entrada {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(245, 245, 245);
+    height: 70vh;
+  }
+  .conteiner-entrada .title-entrada {
+    padding-top: 25px;
+    color: black;
+    font-size: 1.8em;
+  }
+  .conteiner-entrada .menu-entradas {
+    padding: 10px;
+    font-size: 12px;
+  }
+  .conteiner-pizza {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(245, 245, 245);
+    height: 60vh;
+  }
+  .conteiner-pizza .title-pizza {
+    color: black;
+    font-size: 2em;
+  }
+  .conteiner-pizza .menu-pizza {
+    padding: 10px;
+    font-size: 20px;
+  }
+  .conteiner-plato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(245, 245, 245);
+    height: 70vh;
+  }
+  .conteiner-plato .title-plato {
+    color: black;
+    font-size: 1.8em;
+  }
+  .conteiner-plato .menu-plato {
+    padding: 10px;
+    font-size: 12px;
+  }
+  .conteiner-hamburguesa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(245, 245, 245);
+    height: 100vh;
+  }
+  .conteiner-hamburguesa .title-hamburguesa {
+    color: black;
+    font-size: 1.8em;
+  }
+  .conteiner-hamburguesa .menu-hamburguesa {
+    padding: 10px;
+    font-size: 12px;
+  }
+  .conteiner-pancho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(245, 245, 245);
+    height: 70vh;
+  }
+  .conteiner-pancho .title-pancho {
+    color: black;
+    font-size: 1.8em;
+  }
+  .conteiner-pancho .menu-pancho {
+    padding: 10px;
+    font-size: 12px;
+  }
+  .conteiner-pancho .menu-pancho p {
+    font-weight: bold;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2.3em;
+  font-weight: 900;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h2 {
+  font-size: 2em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-size: 1.25em;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto Condensed", sans-serif;
+} /*# sourceMappingURL=index.css.map */

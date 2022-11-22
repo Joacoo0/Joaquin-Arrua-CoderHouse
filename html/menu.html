@@ -1,29 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <header>
-    <div class="conteiner">
-    <div class="logo">
-        <!-- <img src="./img./labajada.png"> -->
-        <h1>LaBajada</h1>
-    </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LaBajada Menu</title>
+    <!-- links -->
 
-    <div class="header">
-        <nav>
-            <a href="./html/menu.html">Menu</a>
-            <a href="">Galeria</a>
-            <a href="">Cumpleaños</a>
-            <a href="">Contacto</a>
-        </nav>
-    </div>
-</div>
+    <!-- icono -->
+    <link rel="icon" href="../img/labajada.png" />
+    <!-- icono -->
 
-</header>
-</body>
+    <!-- ANIMACIONES -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- ANIMACIONES -->
+
+    <!-- ESTILOS -->
+    <link rel="stylesheet" href="../styles/index.css" />
+    <!-- ESTILOS -->
+
+    <!-- FUENTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FUENTES -->
+
+    <!-- links -->
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="conteiner">
+        <div class="logo">
+          <!-- <img src="./img./labajada.png"> -->
+          <h1>LaBajada</h1>
+        </div>
+
+        <div class="header">
+          <nav>
+            <a href="../index.html">Inicio</a>
+            <a href="./galeria.html">Galeria</a>
+            <a href="./cumpleaños.html">Cumpleaños</a>
+            <a href="./contacto.html">Contacto</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- fin-header -->
+
+    <!-- entrada -->
+    <div class="conteiner-entrada">
+      <div class="title-entrada">
+        <h2>Entradas</h2>
+      </div>
+      <div class="menu-entradas">
+        <ul>
+          <li>PAPAS FRITAS CLASICAS</li>
+          <li>PAPAS CHEDDAR</li>
+          <li>PAPAS CHEDDAR, PANCETA Y VERDEO</li>
+          <li>PAPAS NOISETTE C/ QUESO CREMA AL VERDEO</li>
+          <li>NACHOS CON CHEDDAR</li>
+          <li>AROS DE CEBOLLA BBQ C/ PAPAS NOISETTE</li>
+          <li>BASTONES DE QUESO DANBO C/BBQ Y PAPAS NOISETTE</li>
+          <li>ALITAS DE POLLO BBQ C/ PAPAS NOISETTE</li>
+          <li>NUGGETS DE POLLO BBQ C/ PAPAS NOISETTE</li>
+          <li>BOCADITOS MOZZARELLA Y ESPINACA BBQ C/ PAPAS NOISETTE</li>
+          <li>TIRAS DE POLLO CON MOSTAZA C/ PAPAS NOISETTE</li>
+          <li>RABAS CON PAPAS FRITAS</li>
+        </ul>
+      </div>
+    </div>
+    <!-- fin-entrada -->
+    <div class="line-separator"></div>
+    <!-- pizzas -->
+    <div class="conteiner-pizza">
+      <div class="title-pizza" data-aos="flip-left" data-aos-duration="2000">
+        <h2>Pizzas</h2>
+      </div>
+      <div
+        class="menu-pizza"
+        data-aos="fade-up"
+        data-aos-offset="300"
+        data-aos-duration="2500"
+      >
+        <ul>
+          <li>Mozarella</li>
+          <li>Fugazzeta</li>
+          <li>Jamon y Morrones</li>
+          <li>Napolitana</li>
+          <li>Panceta y Verdeo</li>
+          <li>Salchicas</li>
+          <li>Huevo Frito y Panceta</li>
+          <li>Jamon Crudo y Rucula</li>
+        </ul>
+      </div>
+    </div>
+    <!-- fin-pizzas -->
+    <div class="line-separator"></div>
+    <!-- Platos -->
+    <div class="conteiner-plato">
+      <div class="title-plato" data-aos="flip-left" data-aos-duration="2000">
+        <h2>Platos</h2>
+      </div>
+      <div
+        class="menu-pizza"
+        data-aos="fade-up"
+        data-aos-offset="300"
+        data-aos-duration="2500"
+      >
+        <ul>
+          <li>Costillitas De Cerdo Al Verdeo C/ Fritas</li>
+          <li>Matambre De Cerdo A La Pizza C/ Fritas</li>
+          <li>Suprema Al Champignon C/ Papas Noisette</li>
+          <li>Milanesa Napolitana C/ Fritas</li>
+          <li>Suprema Napolitana C/ Fritas</li>
+          <li>Medallones De Pollo A La Pizza C/ Fritas</li>
+          <li>Sorrentinos**</li>
+          <p>*Jamon Y Mozarella</p>
+          <p>*Verdura Y Ricota</p>
+          <li>Canelones De Verdura*</li>
+          <p>*Incluye Salta Filetto O bolognesa</p>
+        </ul>
+      </div>
+    </div>
+    <!-- Platos -->
+    <div class="line-separator"></div>
+    <!-- Hamburgesas -->
+    <div class="conteiner-hamburguesa">
+      <div
+        class="title-hamburguesa"
+        data-aos="flip-left"
+        data-aos-duration="2000"
+      >
+        <h2>Hamburguesas</h2>
+      </div>
+      <div
+        class="menu-hamburguesa"
+        data-aos="fade-up"
+        data-aos-offset="300"
+        data-aos-duration="2500"
+      >
+        >
+        <ul>
+          <li>Hamb.Clasica Con Queso C/ Fritas</li>
+          <li>Hamb. Clasica Completa c/ Fritas</li>
+          <p>lechuga, tomate, jamon y queso</p>
+          <li>Hamb. Clasica Doble c/ Cheddar c/Fritas</li>
+          <p>doble carne, cheddar, panceta, lechuga</p>
+          <li>Hamb. De Pollo C/ Fritas</li>
+          <p>Medallon de pollo, lechuga, tomate, queso</p>
+          <li>Hamb.E Especial C/ Fritas</li>
+          <p>
+            doble carne, panceta, verdeo, lechuga, pepinillos, mostaza y miel
+          </p>
+          <li>Hamb. LaBajada C/ Fritas</li>
+          <p>
+            Doble carne, doble cheddar, cebolla, pepinillos, panceta, verdeo,
+            lechuga, mostaza y miel
+          </p>
+          <li>Hamb. Epopeya C/ Fritas</li>
+          <p>
+            doble medallon de carne, queso cheddar, jamon, cebolla, huevo frito
+          </p>
+          <li>Hamb. Vegetariana C/ Fritas</li>
+          <p>Medallon de lentejas, barbacoa, cheddar, lechuga y tomate</p>
+        </ul>
+      </div>
+    </div>
+    <!-- Hamburgesas -->
+    <div class="line-separator"></div>
+    <!-- panchos -->
+    <div class="conteiner-pancho">
+      <div class="title-pancho" data-aos="flip-left" data-aos-duration="2000">
+        <h2>Panchos-Salchicha Alemana</h2>
+        <div>
+          <div
+            class="menu-pancho"
+            data-aos="fade-up"
+            data-aos-offset="300"
+            data-aos-duration="2500"
+          >
+            <ul>
+              <li>Super Pancho Clasico</li>
+              <p>Mostaza, Salsa golf, Mayonesa c/fritas</p>
+              <li>Super Pancho 1/4 de Milla</li>
+              <p>Cheddar, Salsa Golf, Mayonesa, Panceta, Verdeo c/fritas</p>
+              <li>Super Pancho LaBajada</li>
+              <p>
+                Queso, Panceta, Parmesano, Picante, Salsa Golf, Barbacoa,
+                Mayonesa c/fritas
+              </p>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- panchos -->
+
+    <!-- FOOTER -->
+    <div class="footer">
+      <footer>
+        <div class="contenedor">
+          <h2 class="titulo-footer">Contactanos</h2>
+        </div>
+        <div class="redes-sociales">
+          <a href="https://www.facebook.com/labajada.ballester"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="https://www.instagram.com/bar_labajada/"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+        <div class="contenedor">
+          <p class="copy">2022 Joaquin Arrua / Todos los derechos reservados</p>
+        </div>
+      </footer>
+    </div>
+    <!-- FIN-FOOTER -->
+
+    <!-- SCRIPTS -->
+
+    <!-- ICONOS -->
+
+    <script
+      src="https://kit.fontawesome.com/bdbed0aafa.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- ICONOS -->
+
+    <!-- bootstrap -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- bootstrap -->
+
+    <!-- ANIMACIONES -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- ANIMACIONES -->
+
+    <!-- SCRIPTS -->
+  </body>
 </html>

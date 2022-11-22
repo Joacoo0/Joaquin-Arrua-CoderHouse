@@ -1,47 +1,41 @@
-header {
-  background-color: #ff8800;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+@import "navbar";
+@import "footer";
+@import "inicio";
+@import "contacto";
+@import "galeria";
+@import "cumpleaños";
+@import "menu";
 
-  .conteiner {
-    max-width: 1400px;
-    margin: auto;
-  }
-} 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+h1 {
+  font-size: 2.3em;
+  font-weight: 900;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+h2 {
+  font-size: 2em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
 
-.logo {
+p {
+  font-size: 1.2em;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-size: 1.25em;
+}
+
+body {
   margin: 0px;
-  padding: 25px 30px;
-  font-weight: bold;
-  color: rgb(0, 0, 0);
-  font-size: 1.45em;
-}
-
-.logo h1 {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-
-
-
-nav {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  padding-bottom: 25px;
-}
-
-header a {
-  padding: 5px 12px;
-  text-decoration: none;
-  font-weight: bold;
-  color: rgb(0, 0, 0);
-  font-size: 1.3em;
-}
-
-header a:hover {
-  color: rgb(65, 0, 245);
+  padding: 0px;
+  font-family: "Roboto Condensed", sans-serif;
 }

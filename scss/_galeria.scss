@@ -1,0 +1,152 @@
+.title1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  height: 150px;
+}
+
+.fondo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+
+  .grilla-contacto {
+    background-color: #00000010;
+    width: 90%;
+    height: 600px;
+    display: grid;
+    grid-template-areas:
+      "mesas mesas barra"
+      "fichas tragos pool"
+      "comidas tragos platos";
+    grid-gap: 10px;
+    padding: 10px;
+    .mesas {
+      background-image: url(../img/mesas-abajo.jpg);
+      background-size: cover;
+      background-position: center;
+
+      grid-area: mesas;
+    }
+
+    .platos {
+      background-image: url(../img/barra-pool.jpg);
+      background-size: cover;
+      background-position: center;
+      grid-area: platos;
+    }
+    .tragos {
+      background-image: url(../img/centro.png);
+      background-size: cover;
+      background-position: center;
+      grid-area: tragos;
+    }
+
+    .barra {
+      background-image: url(../img/labajada.png);
+      background-size: cover;
+      background-position: center;
+      grid-area: barra;
+    }
+
+    .fichas {
+      background-image: url(../img/pool.jpg);
+      background-size: cover;
+      background-position: center;
+      grid-area: fichas;
+    }
+
+    .comidas {
+      background-image: url(../img/pool-abajo.jpeg);
+      background-size: cover;
+      background-position: center;
+      grid-area: comidas;
+    }
+
+    .pool {
+      background-image: url(../img/barra-vieja.png);
+      background-size: cover;
+      background-position: center;
+      grid-area: pool;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    height: 150px;
+  }
+
+  .fondo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+
+    .grilla-contacto {
+      background-color: #00000010;
+      width: 90%;
+      height: 600px;
+      display: grid;
+      grid-template-areas:
+        "mesas mesas barra"
+        "fichas tragos pool"
+        "comidas tragos platos";
+      grid-gap: 10px;
+      padding: 10px;
+      .mesas {
+        background-image: url(../img/mesas-abajo.jpg);
+        background-size: cover;
+        background-position: center;
+        grid-area: mesas;
+      }
+
+      .platos {
+        background-image: url(../img/barra-pool.jpg);
+        background-size: cover;
+        background-position: center;
+        grid-area: platos;
+      }
+      .tragos {
+        background-image: url(../img/centro.png);
+        background-size: cover;
+        background-position: center;
+        grid-area: tragos;
+      }
+
+      .barra {
+        background-image: url(../img/labajada.png);
+        background-size: cover;
+        background-position: center;
+        grid-area: barra;
+      }
+
+      .fichas {
+        background-image: url(../img/pool.jpg);
+        background-size: cover;
+        background-position: center;
+        grid-area: fichas;
+      }
+
+      .comidas {
+        background-image: url(../img/pool-abajo.jpeg);
+        background-size: cover;
+        background-position: center;
+        grid-area: comidas;
+      }
+
+      .pool {
+        background-image: url(../img/barra-vieja.png);
+        background-size: cover;
+        background-position: center;
+        grid-area: pool;
+      }
+    }
+  }
+}

@@ -2,8 +2,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 25px;
-  height: 150px;
+  height: 100px;
+  margin: 0px;
+  padding: 0px;
+
+  h2{
+font-size: 40px;
+  }
 }
 
 .fondo {
@@ -14,7 +19,7 @@
 
   .grilla-contacto {
     background-color: #00000010;
-    width: 90%;
+    width: 100%;
     height: 600px;
     display: grid;
     grid-template-areas:
@@ -27,8 +32,8 @@
       background-image: url(../img/mesas-abajo.jpg);
       background-size: cover;
       background-position: center;
-
       grid-area: mesas;
+      border-radius: 7px;
     }
 
     .platos {
@@ -36,12 +41,14 @@
       background-size: cover;
       background-position: center;
       grid-area: platos;
+      border-radius: 7px;
     }
     .tragos {
       background-image: url(../img/centro.png);
       background-size: cover;
       background-position: center;
       grid-area: tragos;
+      border-radius: 7px;
     }
 
     .barra {
@@ -49,6 +56,7 @@
       background-size: cover;
       background-position: center;
       grid-area: barra;
+      border-radius: 7px;
     }
 
     .fichas {
@@ -56,6 +64,7 @@
       background-size: cover;
       background-position: center;
       grid-area: fichas;
+      border-radius: 7px;
     }
 
     .comidas {
@@ -63,6 +72,7 @@
       background-size: cover;
       background-position: center;
       grid-area: comidas;
+      border-radius: 7px;
     }
 
     .pool {
@@ -70,29 +80,33 @@
       background-size: cover;
       background-position: center;
       grid-area: pool;
+      border-radius: 7px;
     }
   }
 }
 
 @media (min-width: 768px) {
-  .title {
+  .title1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 55px;
+    font-size: 30px;
     height: 150px;
+    text-decoration: underline;
   }
 
   .fondo {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 700px;
+    height: 750px;
+    width: 97%;
 
     .grilla-contacto {
       background-color: #00000010;
       width: 90%;
-      height: 600px;
+      height: 750px;
+      
       display: grid;
       grid-template-areas:
         "mesas mesas barra"
@@ -100,11 +114,18 @@
         "comidas tragos platos";
       grid-gap: 10px;
       padding: 10px;
+      transition: all .5s ease-in-out;
+
       .mesas {
         background-image: url(../img/mesas-abajo.jpg);
         background-size: cover;
         background-position: center;
         grid-area: mesas;
+        border-radius: 7px;
+
+       &:hover{
+        transform: scale(1.1);
+       } 
       }
 
       .platos {
@@ -112,12 +133,20 @@
         background-size: cover;
         background-position: center;
         grid-area: platos;
+        border-radius: 7px;
+        &:hover{
+          transform: scale(1.1);
+         } 
       }
       .tragos {
         background-image: url(../img/centro.png);
         background-size: cover;
         background-position: center;
         grid-area: tragos;
+        border-radius: 7px;
+        &:hover{
+          transform: scale(1.1);
+         } 
       }
 
       .barra {
@@ -125,6 +154,10 @@
         background-size: cover;
         background-position: center;
         grid-area: barra;
+        border-radius: 7px;
+        &:hover{
+          transform: scale(1.1);
+         } 
       }
 
       .fichas {
@@ -132,6 +165,10 @@
         background-size: cover;
         background-position: center;
         grid-area: fichas;
+        border-radius: 7px;
+        &:hover{
+          transform: scale(1.1);
+         } 
       }
 
       .comidas {
@@ -139,6 +176,10 @@
         background-size: cover;
         background-position: center;
         grid-area: comidas;
+        border-radius: 7px;
+        &:hover{
+          transform: scale(1.1);
+         } 
       }
 
       .pool {
@@ -146,6 +187,10 @@
         background-size: cover;
         background-position: center;
         grid-area: pool;
+        border-radius: 7px;
+        &:hover{
+          transform: scale(1.1);
+         } 
       }
     }
   }

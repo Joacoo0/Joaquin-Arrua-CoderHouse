@@ -4,7 +4,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  
 }
 
 form {
@@ -18,12 +18,14 @@ form {
   height: 100%;
 }
 
-.title {
+.title, h2{
   text-align: center;
   margin: 0px;
-  font-size: 60px;
+  font-size: 45px;
   color: black;
   margin-bottom: 10px;
+
+
 }
 
 .conte {
@@ -47,7 +49,7 @@ textarea {
   box-sizing: border-box;
   border: none;
   border-radius: 7px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 textarea {

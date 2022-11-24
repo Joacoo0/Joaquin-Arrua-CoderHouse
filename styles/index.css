@@ -9,37 +9,41 @@ header .conteiner {
 }
 header .conteiner .logo {
   margin: 0px;
-  padding: 25px 30px;
+  padding: 15px 30px;
   font-weight: bold;
   color: rgb(0, 0, 0);
-  font-size: 2.1em;
+  font-size: 1.9em;
   display: flex;
   align-items: center;
 }
-header .conteiner .logo h1 {
+header .conteiner .logo .logo, header .conteiner .logo h1, header .conteiner .logo a {
+  text-decoration: none;
+  color: black;
+}
+header .conteiner .logo .logo h1, header .conteiner .logo h1 h1, header .conteiner .logo a h1 {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
-header .conteiner .header nav {
+header .header nav {
   display: flex;
   flex-direction: column;
   text-align: center;
   padding-bottom: 25px;
   width: 100%;
 }
-header .conteiner .header nav a {
+header .header nav a {
   padding: 5px 12px;
   text-decoration: none;
   font-weight: bold;
   color: rgb(0, 0, 0);
-  font-size: 1.6em;
+  font-size: 1.5em;
   font-weight: bold;
   font-family: sans-serif;
 }
-header .conteiner .header nav a:hover {
+header .header nav a:hover {
   background-color: rgba(255, 255, 255, 0.7058823529);
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 @media (min-width: 768px) {
@@ -57,6 +61,12 @@ header .conteiner .header nav a:hover {
     width: 30%;
     justify-content: flex-start;
     font-weight: bold;
+  }
+  header .conteiner .logo,
+header .conteiner a,
+header .conteiner h1 {
+    text-decoration: none;
+    color: black;
   }
   header .conteiner .header {
     display: flex;
@@ -102,11 +112,13 @@ footer {
 footer .titulo-footer {
   color: beige;
   display: flex;
-  font-size: 2.3em;
+  font-size: 2em;
   justify-content: center;
   padding: 0px;
   padding-bottom: 20px;
   padding-top: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
 }
 footer .copy {
   padding: 0px;
@@ -125,6 +137,7 @@ footer .redes-sociales {
   padding: 0px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 footer .redes-sociales a {
   padding: 0px;
@@ -205,13 +218,26 @@ footer .redes-sociales a i:hover {
   background-color: rgb(230, 230, 230);
 }
 .contenedor-1 .title-hora {
-  font-size: 1.9em;
-  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor-1 .title-hora h1 {
+  font-size: 40px;
+  padding-bottom: 5px;
   font-family: "Roboto Condensed", sans-serif;
 }
+.contenedor-1 .horarios {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .contenedor-1 .horarios li {
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
 }
 
 /* fin-horarios */
@@ -259,8 +285,20 @@ footer .redes-sociales a i:hover {
   background-color: rgb(230, 230, 230);
 }
 .contenedor-2 .title-dire {
-  font-size: 1.9em;
-  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.contenedor-2 .title-dire h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  font-size: 40px;
+  padding-bottom: 5px;
   font-family: "Roboto Condensed", sans-serif;
 }
 .contenedor-2 .direccion li {
@@ -348,7 +386,6 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 form {
@@ -362,10 +399,10 @@ form {
   height: 100%;
 }
 
-.title {
+.title, h2 {
   text-align: center;
   margin: 0px;
-  font-size: 60px;
+  font-size: 45px;
   color: black;
   margin-bottom: 10px;
 }
@@ -391,7 +428,7 @@ textarea {
   box-sizing: border-box;
   border: none;
   border-radius: 7px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 textarea {
@@ -422,7 +459,7 @@ textarea {
     width: 80%;
   }
   input,
-  textarea {
+textarea {
     display: flex;
     align-items: center;
     align-content: center;
@@ -437,7 +474,7 @@ textarea {
     font-size: 15px;
   }
   input:hover,
-  textarea:hover {
+textarea:hover {
     background-color: rgb(245, 245, 229);
   }
 }
@@ -445,8 +482,12 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 25px;
-  height: 150px;
+  height: 100px;
+  margin: 0px;
+  padding: 0px;
+}
+.title1 h2 {
+  font-size: 40px;
 }
 
 .fondo {
@@ -457,7 +498,7 @@ textarea {
 }
 .fondo .grilla-contacto {
   background-color: rgba(0, 0, 0, 0.062745098);
-  width: 90%;
+  width: 100%;
   height: 600px;
   display: grid;
   grid-template-areas: "mesas mesas barra" "fichas tragos pool" "comidas tragos platos";
@@ -469,108 +510,146 @@ textarea {
   background-size: cover;
   background-position: center;
   grid-area: mesas;
+  border-radius: 7px;
 }
 .fondo .grilla-contacto .platos {
   background-image: url(../img/barra-pool.jpg);
   background-size: cover;
   background-position: center;
   grid-area: platos;
+  border-radius: 7px;
 }
 .fondo .grilla-contacto .tragos {
   background-image: url(../img/centro.png);
   background-size: cover;
   background-position: center;
   grid-area: tragos;
+  border-radius: 7px;
 }
 .fondo .grilla-contacto .barra {
   background-image: url(../img/labajada.png);
   background-size: cover;
   background-position: center;
   grid-area: barra;
+  border-radius: 7px;
 }
 .fondo .grilla-contacto .fichas {
   background-image: url(../img/pool.jpg);
   background-size: cover;
   background-position: center;
   grid-area: fichas;
+  border-radius: 7px;
 }
 .fondo .grilla-contacto .comidas {
   background-image: url(../img/pool-abajo.jpeg);
   background-size: cover;
   background-position: center;
   grid-area: comidas;
+  border-radius: 7px;
 }
 .fondo .grilla-contacto .pool {
   background-image: url(../img/barra-vieja.png);
   background-size: cover;
   background-position: center;
   grid-area: pool;
+  border-radius: 7px;
 }
 
 @media (min-width: 768px) {
-  .title {
+  .title1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 55px;
+    font-size: 30px;
     height: 150px;
+    text-decoration: underline;
   }
   .fondo {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 700px;
+    height: 750px;
+    width: 97%;
   }
   .fondo .grilla-contacto {
     background-color: rgba(0, 0, 0, 0.062745098);
     width: 90%;
-    height: 600px;
+    height: 750px;
     display: grid;
     grid-template-areas: "mesas mesas barra" "fichas tragos pool" "comidas tragos platos";
     grid-gap: 10px;
     padding: 10px;
+    transition: all 0.5s ease-in-out;
   }
   .fondo .grilla-contacto .mesas {
     background-image: url(../img/mesas-abajo.jpg);
     background-size: cover;
     background-position: center;
     grid-area: mesas;
+    border-radius: 7px;
+  }
+  .fondo .grilla-contacto .mesas:hover {
+    transform: scale(1.1);
   }
   .fondo .grilla-contacto .platos {
     background-image: url(../img/barra-pool.jpg);
     background-size: cover;
     background-position: center;
     grid-area: platos;
+    border-radius: 7px;
+  }
+  .fondo .grilla-contacto .platos:hover {
+    transform: scale(1.1);
   }
   .fondo .grilla-contacto .tragos {
     background-image: url(../img/centro.png);
     background-size: cover;
     background-position: center;
     grid-area: tragos;
+    border-radius: 7px;
+  }
+  .fondo .grilla-contacto .tragos:hover {
+    transform: scale(1.1);
   }
   .fondo .grilla-contacto .barra {
     background-image: url(../img/labajada.png);
     background-size: cover;
     background-position: center;
     grid-area: barra;
+    border-radius: 7px;
+  }
+  .fondo .grilla-contacto .barra:hover {
+    transform: scale(1.1);
   }
   .fondo .grilla-contacto .fichas {
     background-image: url(../img/pool.jpg);
     background-size: cover;
     background-position: center;
     grid-area: fichas;
+    border-radius: 7px;
+  }
+  .fondo .grilla-contacto .fichas:hover {
+    transform: scale(1.1);
   }
   .fondo .grilla-contacto .comidas {
     background-image: url(../img/pool-abajo.jpeg);
     background-size: cover;
     background-position: center;
     grid-area: comidas;
+    border-radius: 7px;
+  }
+  .fondo .grilla-contacto .comidas:hover {
+    transform: scale(1.1);
   }
   .fondo .grilla-contacto .pool {
     background-image: url(../img/barra-vieja.png);
     background-size: cover;
     background-position: center;
     grid-area: pool;
+    border-radius: 7px;
+  }
+  .fondo .grilla-contacto .pool:hover {
+    transform: scale(1.1);
   }
 }
 .conteiner .title {
@@ -580,7 +659,7 @@ textarea {
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  font-size: 1.4em;
+  font-size: 1.3em;
   font-family: Arial, Helvetica, sans-serif;
 }
 .conteiner .title h3 {
@@ -601,7 +680,7 @@ textarea {
   margin-bottom: 20px;
 }
 .conteiner-tipos .cards .card-title {
-  font-size: 1.5em;
+  font-size: 1.8em;
   font-weight: bold;
 }
 .conteiner-tipos .cards .card-text {
@@ -702,7 +781,7 @@ ul {
 .conteiner-entrada .title-entrada {
   padding-top: 25px;
   color: black;
-  font-size: 1.8em;
+  font-size: 30px;
   width: 100%;
 }
 .conteiner-entrada .menu-entradas {
@@ -722,7 +801,7 @@ ul {
 }
 .conteiner-pizza .title-pizza {
   color: black;
-  font-size: 2em;
+  font-size: 30px;
 }
 .conteiner-pizza .menu-pizza {
   padding: 10px;
@@ -740,7 +819,7 @@ ul {
 }
 .conteiner-plato .title-plato {
   color: black;
-  font-size: 1.8em;
+  font-size: 30px;
 }
 .conteiner-plato .menu-plato {
   padding: 10px;
@@ -758,7 +837,7 @@ ul {
 }
 .conteiner-hamburguesa .title-hamburguesa {
   color: black;
-  font-size: 2em;
+  font-size: 30px;
 }
 .conteiner-hamburguesa .menu-hamburguesa {
   padding: 10px;
@@ -776,7 +855,7 @@ ul {
 }
 .conteiner-pancho .title-pancho {
   color: black;
-  font-size: 2em;
+  font-size: 30px;
 }
 .conteiner-pancho .menu-pancho {
   padding: 10px;
@@ -934,4 +1013,4 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: "Roboto Condensed", sans-serif;
-} /*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */

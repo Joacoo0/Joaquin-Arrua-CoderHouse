@@ -12,7 +12,7 @@ header .conteiner .logo {
   padding: 15px 30px;
   font-weight: bold;
   color: rgb(0, 0, 0);
-  font-size: 1.9em;
+  font-size: 1.7em;
   display: flex;
   align-items: center;
 }
@@ -842,7 +842,7 @@ ul {
 }
 .conteiner-hamburguesa .menu-hamburguesa {
   padding: 10px;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .conteiner-pancho {

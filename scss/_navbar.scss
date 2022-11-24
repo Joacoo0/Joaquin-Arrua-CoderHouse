@@ -32,9 +32,6 @@ header {
     }
   }
 
-
-
-
     .header {
       nav {
         display: flex;
@@ -51,10 +48,11 @@ header {
           font-size: 1.5em;
           font-weight: bold;
           font-family: sans-serif;
+          
+
 
           &:hover {
-            background-color: #ffffffb4;
-            border-radius: 10px;
+            color: rgb(26, 25, 25);
           }
         }
       }

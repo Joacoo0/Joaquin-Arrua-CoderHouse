@@ -35,6 +35,10 @@
     .card-text {
       font-size: 1.4em;
       font-weight: bold;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      margin-top: 13px;
     }
     .btn-primary {
       font-weight: bold;
@@ -87,6 +91,7 @@
 
           .card-text {
             font-size: 1.4em;
+            font-weight: bold;
           }
         }
       }
